@@ -1,0 +1,78 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 35% 1fr;
+    grid-template-rows: 1fr 10% 1fr 1fr;
+    background-color: white;
+}
+.header{
+    margin-left: 2%;
+    grid-row-end: 1; 
+}
+.header,
+.contenedor1,
+.contenedor2,
+.contenedor4{
+    background-color: rgb(121, 224, 121);
+    margin-left: 20%;
+    color: #faf8f8;
+}
+.contenedor6{
+    margin-left: 20%;
+    height: 20%;
+    margin-top: 0%;
+}
+.contenedor1,
+.contenedor2,
+.contenedor4{
+ grid-column: 1;
+}
+.contenedor4,
+.contenedor5{
+    height: 100%;
+}
+.contenedor6{
+    grid-column: 1;
+}
+.contenedor3,
+.contenedor5{
+    margin-left: 1%;
+}
+.circular--square {
+    border-radius: 50%;
+}
+.name{
+    color: #166616;
+    margin-left: 1%;
+}
+h3{
+    background-color: rgb(121, 224, 121);
+    width:100%;
+    color: #faf8f8;
+}
+.lista,
+.tabla{
+    color: rgb(22, 102, 22);
+}
+.tit1{
+    background-color: rgb(121, 224, 121);
+    margin-left: 5%;
+}
+progress[value] {
+    width: 200px;
+    height: 10px;
+  
+    /* Reinicializar estilos */
+  
+    appearance: none;
+    -webkit-appearance: none;
+  
+  }
+
+progress[value]::-webkit-progress-value{
+    background-color: rgb(81, 155, 81);
+   
+}
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(89, 224, 89);
+   
+  }
